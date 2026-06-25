@@ -1,0 +1,160 @@
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+.navbar{
+    background-color:#2F578A;
+    height:60px;
+}
+nav{
+    display:flex;
+    justify-content:space-evenly;
+    padding-top:20px;
+}
+.nav a{
+    color:white;
+    font-size:15px;
+    text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    transition:0.3s;
+    transition-delay: 0.3s;
+    transition-timing-function:ease-in;
+}
+.nav a:hover{
+    color:#36ADA3;
+    font-size:18px;
+}
+#about{
+    background-color:#232F72;
+    height:100vh;
+    line-height:1.5;
+}
+#about h2 {
+   color:white;
+   padding-left:30px;
+   padding-top:30px;
+   font-size:1.5rem;
+
+}
+#p1{
+    color:white;
+    padding-left:30px;
+    padding-top:60px;
+    font-size:2.5rem;
+   font-family:Arial, Helvetica, sans-serif;
+   font-weight:bold;
+}
+
+#p2{
+    color:white;
+    font-size:1.5rem;
+    padding-left:30px;
+    padding-top:20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.badges{
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    padding-top:70px;
+}
+#skill{
+    height:150px;
+    width:150px;
+    background-color:#36ADA3;
+    box-shadow:5px 5px 10px white;
+    border:4px solid black;
+    border-radius:10px;
+    transition:0.3s;
+    transition-delay:0.3s;
+    transition-timing-function:ease-in;
+}
+#skill i {
+    font-size:3rem;
+   padding-top:30px;
+   padding-left:55px;
+}
+#skill p {
+    font-size:1 rem;
+    font-weight: bold;
+    padding-top:20px;
+    padding-left:25px;
+}
+#hackathon{
+     height:150px;
+    width:150px;
+    background-color:rgb(7, 8, 8);
+}
+#leetcode{
+     height:150px;
+    width:150px;
+    background-color:rgb(4, 126, 233);
+}
+#skill:hover{
+
+ box-shadow:5px 5px 10px black;
+  height:180px;
+    width:180px;
+    font-size:1.5rem;
+}
+#hackathon{
+    height:150px;
+    width:150px;
+    background-color:#36ADA3;
+    box-shadow:5px 5px 10px white;
+    border:4px solid black;
+    border-radius:10px;
+    transition:0.3s;
+    transition-delay:0.3s;
+    transition-timing-function:ease-in;
+}
+#hackathon i {
+    font-size:3rem;
+   padding-top:30px;
+   padding-left:55px;
+}
+#hackathon p{
+    font-size:1 rem;
+    font-weight: bold;
+    padding-top:20px;
+    padding-left:30px;
+}
+#hackathon:hover{
+    box-shadow:5px 5px 10px black;
+  height:180px;
+    width:180px;
+    font-size:1.5rem;
+}
+#leetcode{
+    height:150px;
+    width:150px;
+    background-color:#36ADA3;
+    box-shadow:5px 5px 10px white;
+    border:4px solid black;
+    border-radius:10px;
+    transition:0.3s;
+    transition-delay:0.3s;
+    transition-timing-function:ease-in;
+}
+#leetcode i {
+    font-size:3rem;
+   padding-top:30px;
+   padding-left:20px;
+}
+#leetcode p {
+    font-size:1rem;
+    font-weight: bold;
+    padding-top:20px;
+    padding-left:30px;
+    
+}
+#leetcode:hover{
+    box-shadow:5px 5px 10px black;
+  height:180px;
+    width:180px;
+    font-size:1.5rem;
+}
