@@ -5,43 +5,69 @@ padding:0;
 box-sizing:border-box;
 scroll-behavior:smooth;
 }
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.6;
+    color: #2b2b2b;
+    background-color: #f7f8fa;
+}
+
+header{
+    width: 100%;
+    position:fixed;
+     background-color: #1f2937;
+}
+
 .navbar{
-    background-color:#2F578A;
-    height:60px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 nav{
-    display:flex;
-    justify-content:space-evenly;
-    padding-top:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:70px;
+    height: 70px;
+    flex-wrap:wrap;
 }
+
 .nav a{
-    color:white;
-    font-size:15px;
-    text-decoration:none;
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight:bold;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
     transition:0.3s;
-    transition-delay: 0.3s;
+    transition-delay:0.2s;
     transition-timing-function:ease-in;
 }
 .nav a:hover{
-    color:#36ADA3;
-    font-size:18px;
+     background-color: #374151;
+    color: #38bdf8;
+    font-size:20px;
+}
+main {
+    max-width: 900px;
+    margin: 0 auto;      
+    padding: 40px 20px;
 }
 #about{
-    background-color:#232F72;
-    height:100vh;
+    color:#1f2937;
+    height:100%;
     line-height:1.5;
-}
-#about h2 {
-   color:white;
-   padding-left:30px;
-   padding-top:30px;
-   font-size:1.5rem;
+    width:100%;
+    padding-top:200px;
 
 }
+#about h2 {
+   font-weight: bold;
+   padding-left:30px;
+   font-size:2rem;
+   border-left: 5px solid #38bdf8;
+}
 #p1{
-    color:white;
+    
     padding-left:30px;
     padding-top:60px;
     font-size:2.5rem;
@@ -50,7 +76,7 @@ nav{
 }
 
 #p2{
-    color:white;
+   
     font-size:1.5rem;
     padding-left:30px;
     padding-top:20px;
@@ -59,19 +85,24 @@ nav{
 .badges{
     display:flex;
     align-items:center;
-    justify-content:space-evenly;
+    gap:40px;
     padding-top:70px;
+    flex-wrap:wrap;
+    justify-content:center;
+    padding-bottom:70px;
+    
 }
 #skill{
     height:150px;
     width:150px;
-    background-color:#36ADA3;
-    box-shadow:5px 5px 10px white;
+    box-shadow:5px 5px 20px rgb(18, 16, 16);
     border:4px solid black;
     border-radius:10px;
     transition:0.3s;
     transition-delay:0.3s;
     transition-timing-function:ease-in;
+    background-color: #ffffff;
+    
 }
 #skill i {
     font-size:3rem;
@@ -87,12 +118,12 @@ nav{
 #hackathon{
      height:150px;
     width:150px;
-    background-color:rgb(7, 8, 8);
+    background-color: #ffffff;
 }
 #leetcode{
      height:150px;
     width:150px;
-    background-color:rgb(4, 126, 233);
+    background-color: #ffffff;
 }
 #skill:hover{
 
@@ -104,8 +135,7 @@ nav{
 #hackathon{
     height:150px;
     width:150px;
-    background-color:#36ADA3;
-    box-shadow:5px 5px 10px white;
+    box-shadow:5px 5px 20px rgb(18, 16, 16);
     border:4px solid black;
     border-radius:10px;
     transition:0.3s;
@@ -132,8 +162,7 @@ nav{
 #leetcode{
     height:150px;
     width:150px;
-    background-color:#36ADA3;
-    box-shadow:5px 5px 10px white;
+    box-shadow:5px 5px 20px rgb(18, 16, 16);
     border:4px solid black;
     border-radius:10px;
     transition:0.3s;
@@ -158,3 +187,25 @@ nav{
     width:180px;
     font-size:1.5rem;
 }
+#skills{
+    height:100%;
+    line-height:1.5;
+    padding-top:00px;
+}
+#skills h2 {
+    padding-left: 30px;
+    padding-top: 0px;
+    font-size: 3rem;
+}
+@media (max-width: 600px) {
+    .nav a {
+        padding: 12px 14px;
+        font-size: 0.8rem;
+        font-weight:300px;
+    }
+    nav{
+        gap:5px;
+    }
+    .nav a:hover{
+        font-size:0.8rem;
+    }
