@@ -57,7 +57,7 @@ main {
     height:100%;
     line-height:1.5;
     width:100%;
-    padding-top:200px;
+    padding-top:150px;
 
 }
 #about h2 {
@@ -65,6 +65,7 @@ main {
    padding-left:30px;
    font-size:2rem;
    border-left: 5px solid #38bdf8;
+   margin-left:35px;
 }
 #p1{
     
@@ -95,7 +96,7 @@ main {
 #skill{
     height:150px;
     width:150px;
-    box-shadow:5px 5px 20px rgb(18, 16, 16);
+    box-shadow:5px 5px 20px rgb(107, 94, 94);
     border:4px solid black;
     border-radius:10px;
     transition:0.3s;
@@ -108,6 +109,7 @@ main {
     font-size:3rem;
    padding-top:30px;
    padding-left:55px;
+   color:#38bdf8;
 }
 #skill p {
     font-size:1 rem;
@@ -135,7 +137,7 @@ main {
 #hackathon{
     height:150px;
     width:150px;
-    box-shadow:5px 5px 20px rgb(18, 16, 16);
+    box-shadow:5px 5px 20px rgb(123, 109, 109);
     border:4px solid black;
     border-radius:10px;
     transition:0.3s;
@@ -146,6 +148,7 @@ main {
     font-size:3rem;
    padding-top:30px;
    padding-left:55px;
+   color:#38bdf8;
 }
 #hackathon p{
     font-size:1 rem;
@@ -162,7 +165,7 @@ main {
 #leetcode{
     height:150px;
     width:150px;
-    box-shadow:5px 5px 20px rgb(18, 16, 16);
+    box-shadow:5px 5px 20px rgb(120, 105, 105);
     border:4px solid black;
     border-radius:10px;
     transition:0.3s;
@@ -173,6 +176,7 @@ main {
     font-size:3rem;
    padding-top:30px;
    padding-left:20px;
+   color:#38bdf8;
 }
 #leetcode p {
     font-size:1rem;
@@ -189,14 +193,46 @@ main {
 }
 #skills{
     height:100%;
+    width:100%;
     line-height:1.5;
     padding-top:00px;
+    margin-top:50px;
 }
 #skills h2 {
     padding-left: 30px;
     padding-top: 0px;
     font-size: 3rem;
+    font-weight:bold;
 }
+  .card{
+        border:4px solid black;
+        border-radius:10px;
+        margin-top:50px;
+        margin-bottom:50px;
+        margin-left:35px;
+        box-shadow:5px 5px 20px rgb(107, 94, 94);
+        transition:0.3s;
+        transition-delay:0.3s;
+        transition-timing-function:ease-in;
+        padding-bottom:10px;
+        display:inline-block;
+    }
+    .card-img-top{
+        width:100%;
+        height:100%;
+
+    }
+    .card:hover{
+        box-shadow:5px 5px 10px black;
+    }
+    .card-body{
+        padding-left:10px;
+    }
+    .card-body a {
+        text-decoration:none;
+        color:#38bdf8;
+        font-weight:bold;
+    }
 @media (max-width: 600px) {
     .nav a {
         padding: 12px 14px;
