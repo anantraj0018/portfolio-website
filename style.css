@@ -233,6 +233,49 @@ main {
         color:#38bdf8;
         font-weight:bold;
     }
+    #projects{
+        height:100%;
+        width:100%;
+        line-height:1.5;
+        padding-top:50px;
+    }
+    #projects h2 {
+        font-size: 3rem;
+        font-weight:bold;
+    }
+    .card-title-p1{
+        font-size:1rem;
+        font-weight:bold;
+        padding-bottom:10px;
+    }
+    .card-link{
+        text-decoration:none;
+        color:#38bdf8;
+        font-weight:bold;
+        margin-right:40px;
+    }
+    #certifications{
+      height:100%;
+      width:100%;
+      line-height:1.5;
+      padding-top:50px;
+    }
+    #certifications h2 {
+        font-size: 3rem;
+        margin-bottom:20px;
+    }
+    #certifications li,ol,ul{
+        margin-left:25px;
+    }
+     #certifications ol{
+        font-weight:bold;
+     }
+    #certifications a {
+        margin-left:50px;
+        text-decoration:none;
+        font-weight:bold;
+        color:#38bdf8;
+    }
 @media (max-width: 600px) {
     .nav a {
         padding: 12px 14px;
