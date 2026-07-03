@@ -259,6 +259,7 @@ main {
       width:100%;
       line-height:1.5;
       padding-top:50px;
+      padding-bottom:30px;
     }
     #certifications h2 {
         font-size: 3rem;
@@ -276,6 +277,83 @@ main {
         font-weight:bold;
         color:#38bdf8;
     }
+    #c1{
+        height:50%;
+        background-color:#ffffff;
+        margin-left:35px;
+        border-radius:10px;
+        border:2px solid #38bdf8;
+         padding-bottom:10px;
+        padding-top:10px;
+    }
+    #c2{
+        height:50%;
+        background-color:#ffffff;
+        margin-left:35px;
+        border-radius:10px;
+        border:2px solid #38bdf8;
+        margin-bottom:20px;
+         padding-bottom:10px;
+        padding-top:10px;
+    }
+    #experience{
+        height:100%;
+      width:100%;
+      line-height:1.5;
+      padding-top:50px;
+      padding-bottom:30px;
+    }
+    #experience h2 {
+        font-size:3rem;
+    }
+    .exp-1{
+        margin-left:35px;
+        background-color: #ffffff;
+        border-radius:10px;
+        border:2px solid #38bdf8;
+        padding-bottom:10px;
+        padding-top:10px;
+    }
+    .exp-1 li{
+        margin-left:20px;
+    }
+    .exp-1 h4 {
+        margin-left:45px;
+        margin-top:5;
+    }
+    #achievements{
+        height:100%;
+        width:100%;
+        padding-top:50px;
+        padding-bottom:30px;
+    }
+    #achievements h2{
+        font-size:3rem;
+    }
+    #a1{
+        background-color: #ffffff;
+        border-radius:10px;
+        border:2px solid #38bdf8;
+        margin-left:35px;
+         padding-bottom:10px;
+        padding-top:10px;
+    }
+    #a1 li{
+        margin-left:20px;
+    }
+    #a1 h4{
+        margin-left:45px;
+        margin-top:5px;
+        margin-bottom:5px;
+    }
+    #a1 a {
+        text-decoration:none;
+        color:#38bdf8;
+        font-weight:bold;
+        margin-left:20px;
+        margin-bottom:10px;
+        margin-top:10px;
+    }
 @media (max-width: 600px) {
     .nav a {
         padding: 12px 14px;
@@ -287,4 +365,8 @@ main {
     }
     .nav a:hover{
         font-size:0.8rem;
+    }
+    @media (max-width: 600px){
+      #about h2{
+        font-size:2rem;
     }
