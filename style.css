@@ -354,6 +354,65 @@ main {
         margin-bottom:10px;
         margin-top:10px;
     }
+    #contact{
+        height:100%;
+        width:100%;
+        padding-top:50px;
+        padding-bottom:30px;
+    }
+    #contact h2{
+        font-size:3rem;
+    }
+    .mb-3{
+        margin-left:35px;
+        margin-top:20px;
+        width:100%;
+    }
+    .form-label{
+        font-weight:bold;
+    }
+    #exampleFormControlInput1{
+        width:95%;
+        height:40px;
+        border-radius:5px;
+        border:2px solid #38bdf8;
+    }
+    input::placeholder {
+    font-size: 18px; 
+    color: #888;   
+    padding-left: 10px;  
+}
+#exampleFormControlTextarea1{
+    width:95%;
+    height:100px;
+    border-radius:5px;
+    border:2px solid #38bdf8;
+}
+textarea::placeholder {
+    font-size: 18px; 
+    color: #888;   
+    padding-left: 10px;  
+}
+.btn-primary1{
+    background-color: #38bdf8;
+    border:2px solid black;
+    color:white;
+    font-weight:bold;
+    margin-left:35px;
+    margin-top:10px;
+    height:35px;
+    width:100px;
+    border-radius:5px;
+}
+.btn-primary1:hover{
+    background-color: rgb(20, 78, 185);
+}
+#icons{
+    margin-left:40px;
+    margin-top:20px;
+    display:flex;
+    justify-content:center;
+}
 @media (max-width: 600px) {
     .nav a {
         padding: 12px 14px;
